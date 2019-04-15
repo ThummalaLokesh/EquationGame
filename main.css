@@ -1,0 +1,51 @@
+h1{ 
+	color: teal; 
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 50px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center; 
+}
+
+#scoreMessage{
+	color: #4CAF50;
+	font-weight: bold;
+	font-size: 18px;
+}
+#startButton , #subButton, #skipButton, #resetButton{
+	width: 10%;
+	background-color: white;
+	color: black;
+	padding: 10px 10px;
+	margin: 5px 0;
+	border: 2px solid teal;
+	border-radius: 4px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+
+#startButton:hover , #subButton:hover , #skipButton:hover , #resetButton:hover{
+  background-color: teal;
+  color: white;
+}
+
+#score{
+	color: #4CAF50;
+	font-weight: bold;
+	font-size: 18px;
+} 
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#question{
+	font-weight: bold;
+	font-size: 20px;
+}
